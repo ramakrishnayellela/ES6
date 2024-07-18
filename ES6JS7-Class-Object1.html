@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Class and object</title>
+    </head>
+    <body>
+        <script>
+            class PersonClass{          //class creation
+                name="Ramakrishna";
+                age=20;
+                display(){
+                    var a=20;
+                    console.log("hello:"+a);
+                    console.log("name is : "+this.name);
+                    console.log("Age is : "+this.age);
+                }
+                mydata(){
+                    console.log("Hello OOPS");
+                }
+            }
+            var p1 = new PersonClass();    //object creation
+            p1.display();                  //method calling
+            p1.mydata();
+        </script>
+    </body>
+</html>

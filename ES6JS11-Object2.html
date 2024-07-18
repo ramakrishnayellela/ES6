@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Object2</title>
+    </head>
+    <body>
+        <p id="ram">.....</p>
+        <script>
+            var person={
+                name:"ram",
+                rollno:"218A1A4465",
+                branch:"CSD",
+                myfun : function(){
+                    return person.name+" "+person.rollno+" "+person.branch;
+                }
+            }
+            document.getElementById("ram").innerHTML=person.myfun();            
+            </script>
+    </body>
+</html>
